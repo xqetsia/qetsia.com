@@ -6,27 +6,17 @@ import Image from "next/image"
 import { LucideCalendar, LucideMapPin } from "lucide-react"
 
 const experiences = [
-    {
-    company: "TOKK",
-    position: "Lead iOS Engineer",
-    period: "Dec 2025 - Present",
-    location: "Remote",
-    responsibilities: [
-      "Built a streamlined onboarding and authentication flow using a clean MVVM structure with flexible page generation and validation.", 
-      "Separated authentication logic from the UI to simplify the codebase and enable easier testing.",
-      "Coordinated signup, login, and onboarding across dedicated components to support a smooth and extensible user experience."
-    ],
-    logoUrl: "images/tokk.jpeg",
-  },
   {
     company: "TOKK",
     position: "iOS Engineering Intern",
-    period: "Oct 2025 - Dec 2025",
+    period: "Oct 2025 - Jan 2025",
     location: "Remote",
     responsibilities: [
       "Refactored complex SwiftUI views into modular computed properties to resolve type-checking issues and ensure stable compilation.",
       "Built maintainable, testable services in Swift, including a ConversationManager for message history, a WebSocketService for real-time streaming with reconnection logic, and an AudioPlaybackService using Combine for clean audio handling.",
-      "These improvements enhanced code reliability, test coverage, and real-time performance."
+      "Built a streamlined onboarding and authentication flow using a clean MVVM structure with flexible page generation and validation.", 
+      "Separated authentication logic from the UI to simplify the codebase and enable easier testing.",
+      "Coordinated signup, login, and onboarding across dedicated components to support a smooth and extensible user experience."
     ],
     logoUrl: "images/tokk.jpeg",
   },

@@ -146,11 +146,6 @@ export default function About() {
                 I enjoy turning complex user flows into reliable, testable code that’s easy to scale and iterate on.
                 </p>
 
-                 <p className="text-gray-300 mb-6 leading-relaxed">
-                Currently, I am the Lead iOS Engineer at a San Diego-based startup, where I focus on building scalable, modular SwiftUI architectures. 
-                I’ve led the development of key features such as dynamic onboarding flows and a decoupled authentication system built for clarity and testability.
-                </p>
-
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   I am from the Democratic Republic of Congo. I lived in Kinshasa, Congo for most of my life. I moved to Los Angeles right after I finished high school for my undergraduate studies. 
                 </p>
