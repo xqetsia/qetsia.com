@@ -6,16 +6,16 @@ import Image from "next/image"
 import { LucideCalendar, LucideMapPin } from "lucide-react"
 
 const experiences = [
-    {
-    company: "Shure",
-    position: "iOS Engineering Intern",
-    period: "Jun 2026 - Sep 2026",
-    location: "Remote",
-    responsibilities: [
-      "Incoming Summer 2026"
-    ],
-    logoUrl: "images/shure.jpeg",
-  },
+  //   {
+  //   company: "Shure",
+  //   position: "iOS Engineering Intern",
+  //   period: "Jun 2026 - Sep 2026",
+  //   location: "Remote",
+  //   responsibilities: [
+  //     "Incoming Summer 2026"
+  //   ],
+  //   logoUrl: "images/shure.jpeg",
+  // },
   {
     company: "TOKK",
     position: "iOS Engineering Intern",
