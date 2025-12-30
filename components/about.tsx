@@ -46,9 +46,10 @@ const skillsData = {
   ],
   tools: [
     { name: "Xcode", icon: "images/xcode.svg?height=40&width=40" },
-    { name: "Figma", icon: "images/figma.svg?height=40&width=40" },
+    { name: "Postman", icon: "images/postman.svg?height=40&width=40" }, 
     { name: "Git", icon: "images/git.svg?height=40&width=40" },
-    { name: "VS Code", icon: "images/vscode.svg?height=40&width=40" }
+    { name: "VS Code", icon: "images/vscode.svg?height=40&width=40" }, 
+    { name: "Figma", icon: "images/figma.svg?height=40&width=40" }
   ],
 }
 
