@@ -8,6 +8,7 @@ import { LucideCalendar, LucideMapPin } from "lucide-react"
 const experiences = [
   {
     company: "TOKK",
+    companyUrl: "https://tokk.ai",
     position: "iOS Engineering Intern",
     period: "Oct 2025 - Jan 2026",
     location: "Remote",
@@ -19,6 +20,7 @@ const experiences = [
   },
   {
     company: "Nupt.AI",
+    companyUrl: "https://nupt.ai/",
     position: "Software Engineering Intern",
     period: "Mar 2025 - Jun 2025",
     location: "Los Angeles, CA",
@@ -30,6 +32,7 @@ const experiences = [
   },
   {
     company: "UniShack",
+    companyUrl: "https://www.unishack.com/",
     position: "UI/UX Intern",
     period: "Oct 2022 - Feb 2023",
     location: "Remote",
@@ -77,19 +80,20 @@ export default function Experience() {
                 >
                   {/* Experience card */}
                   {/* <div className="bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/10"> */}
-                  <div className="group bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/5 transition-all duration-300  hover:shadow-lg">
-                    <div className="absolute inset-0 rounded-xl bg-[#ffd90d]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-0" />
+                  <div className="group bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/5 transition-all duration-300  hover:shadow-2xl hover:shadow-yellow-900/40 overflow-hidden">
                     {/* Company logo, name, position */}
                     <div className="flex items-start mb-4">
                       <div className="mr-4 flex-shrink-0">
                         <div className="w-14 h-14 rounded-md overflow-hidden shadow-sm  flex items-center justify-center p-1">
-                          <Image
-                            src={exp.logoUrl || "/placeholder.svg"}
-                            alt={exp.company}
-                            width={60}
-                            height={60}
-                            className="object-contain"
-                          />
+                          <a href={exp.companyUrl} target="_blank" rel="noopener noreferrer">
+                            <Image
+                              src={exp.logoUrl || "/placeholder.svg"}
+                              alt={exp.company}
+                              width={60}
+                              height={60}
+                              className="object-contain"
+                            />
+                          </a>
                         </div>
                       </div>
                       <div>
@@ -127,8 +131,10 @@ export default function Experience() {
                         ))}
                     </div>
 
-                    
-                  
+                    {/* HOVER EFFECT: Yellow gradient line that appears at the top of the card on hover */}
+                    <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-[#ffd90d]"></div>
+                    </div>
                   </div>
 
 

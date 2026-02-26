@@ -6,18 +6,18 @@ import Image from "next/image"
 import { LucideExternalLink, LucideGithub } from "lucide-react"
 
 const projects = [
+    {
+    title: "AfriGoal - Backend",
+    description: "A lightweight FastAPI backend for fetching African Cup of Nations (AFCON) team data using the LiveScore API. Built for integration with an iOS SwiftUI app.",
+    githubLink: "https://github.com/qetsiankulu/afrigoal-backend",
+    technologies: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Firebase", "Render", "Git"]
+  },
   {
     title: "VoiceOrb",
     description: "A dynamic animated visual inspired by agentic AI interfaces with distinct color, glow, and motion states representing idle, listening, and talking behaviors",
     githubLink: "https://github.com/qetsiankulu/VoiceOrb",
     demoLink: "https://www.loom.com/share/7337f9cf5d9c4542b31d6a89e0994b3e",
     technologies: ["Swift", "SwiftUI", "Git"]
-  },
-  {
-    title: "AfriGoal - Backend",
-    description: "A lightweight FastAPI backend for fetching African Cup of Nations (AFCON) team data using the LiveScore API. Built for integration with an iOS SwiftUI app.",
-    githubLink: "https://github.com/qetsiankulu/afrigoal-backend",
-    technologies: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Firebase", "Render", "Git"]
   },
   {
     title: "PhotoScavengerHunt",
@@ -110,7 +110,7 @@ export default function Projects() {
               </div>
 
 
-              {/* Lightning effect on hover */}
+              {/* HOVER EFFECT: Yellow gradient line that appears at the top of the card on hover */}
               <div className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500 to-[#ffd90d]"></div>
               </div>

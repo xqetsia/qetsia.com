@@ -15,6 +15,7 @@ export const personalData = {
 export const experiences = [
   {
     company: "Cool Company",
+    companyUrl: "https://tokk.ai",
     position: "Software Engineer Intern",
     period: "Jun 2023 - Sep 2023",
     responsibilities: ["Build a React.js UI with dynamic fields", "Developed REST APIs using a Supabase Backend"],
@@ -23,11 +24,12 @@ export const experiences = [
   },
   {
     company: "AI Company",
+    companyUrl: "https://tokk.ai", 
     position: "Software Engineer Intern",
     period: "Jun 2022 - Sep 2022",
     responsibilities: ["Deployed Web Server on AWS", "Trained an AI model with 70% accuracy"],
     logoUrl: "/placeholder.svg?height=100&width=100",
-     technologies: ["AWS", "Python"]
+    technologies: ["AWS", "Python"]
   },
 ]
 
