@@ -28,7 +28,7 @@ const experiences = [
       "Reduced technical debt and implementation risk by speccing a blogging platform, defining core data models, entity relationships, and access control logic to align with business objectives. Designed and implemented a production-grade CMS backend supporting structured content workflows for admins, with role-based access control and a custom rich text editor integration."
     ],
     logoUrl: "images/nupt.png",
-    technologies: ["Bubble.io", "System Design", "Data Modeling", "Role-Based Access Control", "Front-End Development"]
+    technologies: ["Bubble.io", "System Design", "Data Modeling", "Role-Based Access Control", "Full-Stack Development"]
   },
   {
     company: "UniShack",
