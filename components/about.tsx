@@ -144,8 +144,8 @@ export default function About() {
 
               <div className="pl-13">
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    I am an engineer-product thinker. I bring a strong product mindset to software engineering, 
-                    combining design intuition with scalable architecture to build systems that are both 
+                    I am an engineer-product thinker. I bring a strong product mindset to software engineering. I 
+                    combine design intuition with scalable architecture to build systems that are both 
                     functional and maintainable from day one.
                   </p>
 
@@ -162,12 +162,12 @@ export default function About() {
                     <a href="https://tokk.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       agentic movement coach
                     </a>
-                    . Each project pushed me to take ownership from problem definition to delivery, 
+                    . Each project pushed me to take ownership from problem definition to delivery,
                     iterating quickly while keeping long-term maintainability in focus.
                   </p>
 
                   <p className="text-gray-300 mb-6 leading-relaxed">
-                    I have proven experience building production-quality code that is correct, readable, 
+                    I have proven experience building production-quality code that is readable, 
                     well-tested, and extensible. I've designed systems end-to-end, including a{" "}
                     <a href="https://nupt.ai/blog" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       blog CMS

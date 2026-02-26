@@ -28,7 +28,7 @@ const experiences = [
       "Reduced technical debt and implementation risk by speccing a blogging platform, defining core data models, entity relationships, and access control logic to align with business objectives. Designed and implemented a production-grade CMS backend supporting structured content workflows for admins, with role-based access control and a custom rich text editor integration."
     ],
     logoUrl: "images/nupt.png",
-    technologies: ["Bubble.io", "System Design", "Data Modeling", "Role-Based Access Control"]
+    technologies: ["Bubble.io", "System Design", "Data Modeling", "Role-Based Access Control", "Front-End Development"]
   },
   {
     company: "UniShack",
@@ -37,7 +37,7 @@ const experiences = [
     period: "Oct 2022 - Feb 2023",
     location: "Remote",
     responsibilities: [
-      "Conducted user research specifically on UCLA students to distinguish their housing needs from those of general renters, surfacing key insights that directly shaped design decisions. Benchmarked major apartment platforms through competitive analysis to align the product with market standards, then defined core UI features and facilitated iterative design reviews with industry mentors throughout the prototyping process.    "
+      "Conducted user research specifically on UCLA students to distinguish their housing needs from those of general renters, surfacing key insights that directly shaped design decisions. Benchmarked major apartment platforms through competitive analysis to align the product with market standards. Defined core UI features and facilitated iterative design reviews with industry mentors throughout the prototyping process.    "
     ],
     logoUrl: "images/unishack.png",
     technologies: ["Figma", "User Research", "Competitive Analysis", "Wireframing", "Prototyping", "UI Design"]
