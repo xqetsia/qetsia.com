@@ -14,12 +14,18 @@ import Image from "next/image"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
 const educationData = [
-    {
-    institution: "UCLA Extension",
-    degree: "Certificate in Applications Programming",
-    period: "2023",
-    logo: "images/ucla-ext-logo.png",
+   {
+    institution: "Georgia Institute of Technology",
+    degree: "Master of Science in Computer Science",
+    period: "2026 - 2029",
+    logo: "images/georgia-tech-logo.jpeg",
   },
+  //   {
+  //   institution: "UCLA Extension",
+  //   degree: "Certificate in Applications Programming",
+  //   period: "2023",
+  //   logo: "images/ucla-ext-logo.png",
+  // },
   {
     institution: "University of California, Los Angeles (UCLA)",
     degree: "Bachelor of Science in Cognitive Science",
@@ -137,24 +143,57 @@ export default function About() {
               </div>
 
               <div className="pl-13">
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                With a background in UI/UX, I bring a strong product mindset to iOS development. 
-                </p>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                I combine product thinking with scalable architecture, which makes me especially effective in early-stage product environments where fast iteration, clean design systems, and long-term maintainability are essential.
-                </p>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                I enjoy turning complex user flows into reliable, testable code that’s easy to scale and iterate on.
-                </p>
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    I am an engineer-product thinker. I bring a strong product mindset to software engineering, 
+                    combining design intuition with scalable architecture to build systems that are both 
+                    functional and maintainable from day one.
+                  </p>
 
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  I am from the Democratic Republic of Congo. I lived in Kinshasa, Congo for most of my life. I moved to Los Angeles right after I finished high school for my undergraduate studies. 
-                </p>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  In my free time, I like reading novels, working out, gaming, watching anime, exploring different music genres, and practicing guitar.
-                </p>
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    My experience spans design and engineering across a variety of products, from a{" "}
+                    <a href="https://www.unishack.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      student housing platform
+                    </a>
+                    , to an{" "}
+                    <a href="https://nupt.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      AI wedding planner
+                    </a>
+                    , to an{" "}
+                    <a href="https://tokk.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      agentic movement coach
+                    </a>
+                    . Each project pushed me to take ownership from problem definition to delivery, 
+                    iterating quickly while keeping long-term maintainability in focus.
+                  </p>
 
-                
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    I have proven experience building production-quality code that is correct, readable, 
+                    well-tested, and extensible. I've designed systems end-to-end, including a{" "}
+                    <a href="https://nupt.ai/blog" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      blog CMS
+                    </a>
+                    {" "} and {" "}
+                    <a href="https://www.loom.com/share/5312c7d1d7ab494a9978ac1315c48b1f" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      an iOS onboarding feature
+                    </a>, applying large-scale system design principles 
+                    to ensure each solution is built to grow.
+                  </p>
+
+                  <p className="text-gray-300 mb-6 leading-relaxed"> 
+                    Beyond the code, I've led research-driven redesigns grounded in target user demographics. I understand that different user populations have fundamentally different needs. 
+                    I also conceived the visual identity for 
+                     {" "}
+                    <a href="https://www.loom.com/share/799b5b022bde4a3f830d702b2807ede7" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                      TOKK
+                    </a>
+                    , translating the concept of an AI coaching presence into a single, fluid visual.
+                    
+                  </p>
+
+                  <p className="text-gray-300 mb-6 leading-relaxed">
+                    Outside of work, I like reading novels, working out, gaming, watching anime, 
+                    exploring different music genres, and practicing guitar.
+                  </p>   
               </div>
             </motion.div>
 
