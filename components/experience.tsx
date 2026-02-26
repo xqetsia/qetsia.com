@@ -6,29 +6,16 @@ import Image from "next/image"
 import { LucideCalendar, LucideMapPin } from "lucide-react"
 
 const experiences = [
-  //   {
-  //   company: "Shure",
-  //   position: "iOS Engineering Intern",
-  //   period: "Jun 2026 - Sep 2026",
-  //   location: "Remote",
-  //   responsibilities: [
-  //     "Incoming Summer 2026"
-  //   ],
-  //   logoUrl: "images/shure.jpeg",
-  // },
   {
     company: "TOKK",
     position: "iOS Engineering Intern",
     period: "Oct 2025 - Jan 2026",
     location: "Remote",
     responsibilities: [
-      "Refactored complex SwiftUI views into modular computed properties to resolve type-checking issues and ensure stable compilation.",
-      "Built maintainable, testable services in Swift, including a ConversationManager for message history, a WebSocketService for real-time streaming with reconnection logic, and an AudioPlaybackService using Combine for clean audio handling.",
-      "Built a streamlined onboarding and authentication flow using a clean MVVM structure with flexible page generation and validation.", 
-      "Separated authentication logic from the UI to simplify the codebase and enable easier testing.",
-      "Coordinated signup, login, and onboarding across dedicated components to support a smooth and extensible user experience."
+      "Built and redesigned critical iOS systems including a custom SwiftUI authentication architecture, a modular WebSocket communication layer, an AudioPlaybackService, and a scalable MVVM onboarding experience. Worked within a cross-functional team to deliver clean, extensible foundations."
     ],
     logoUrl: "images/tokk.jpeg",
+    technologies: ["Swift", "SwiftUI", "AWS Amplify", "Combine", "MVVM"]
   },
   {
     company: "Nupt.AI",
@@ -36,21 +23,21 @@ const experiences = [
     period: "Mar 2025 - Jun 2025",
     location: "Los Angeles, CA",
     responsibilities: [
-      "Developed a content management system with role-based access and admin tools for the website's Blog Feature.",
-      "Improved platform stability by fixing front-end issues across key pages, resulting in a smoother and more reliable experience."
+      "Reduced technical debt and implementation risk by speccing a blogging platform, defining core data models, entity relationships, and access control logic to align with business objectives. Designed and implemented a production-grade CMS backend supporting structured content workflows for admins, with role-based access control and a custom rich text editor integration."
     ],
     logoUrl: "images/nupt.png",
+    technologies: ["Bubble.io", "System Design", "Data Modeling", "Role-Based Access Control"]
   },
   {
-    company: "BruinShack (now UniShack)",
+    company: "UniShack",
     position: "UI/UX Intern",
     period: "Oct 2022 - Feb 2023",
     location: "Remote",
     responsibilities: [
-      "Analyzed user research to uncover key insights about UCLA students and guided design decisions with competitive analysis of major apartment platforms.",
-      "Defined essential UI features for the website redesign and facilitated regular design reviews with industry mentors to refine the prototype throughout development.",
+      "Conducted user research specifically on UCLA students to distinguish their housing needs from those of general renters, surfacing key insights that directly shaped design decisions. Benchmarked major apartment platforms through competitive analysis to align the product with market standards, then defined core UI features and facilitated iterative design reviews with industry mentors throughout the prototyping process.    "
     ],
     logoUrl: "images/unishack.png",
+    technologies: ["Figma", "User Research", "Competitive Analysis", "Wireframing", "Prototyping", "UI Design"]
   },
 ]
 
@@ -89,8 +76,10 @@ export default function Experience() {
                   }`}
                 >
                   {/* Experience card */}
-                  <div className="bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/10">
-                    {/* Company logo and name */}
+                  {/* <div className="bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/10"> */}
+                  <div className="group bg-black/40 backdrop-blur-md rounded-xl shadow-md p-6 relative z-10 border border-white/5 transition-all duration-300  hover:shadow-lg">
+                    <div className="absolute inset-0 rounded-xl bg-[#ffd90d]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-0" />
+                    {/* Company logo, name, position */}
                     <div className="flex items-start mb-4">
                       <div className="mr-4 flex-shrink-0">
                         <div className="w-14 h-14 rounded-md overflow-hidden shadow-sm  flex items-center justify-center p-1">
@@ -104,8 +93,8 @@ export default function Experience() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-xl font-bold text-white">{exp.company}</h3>
-                        <p className="text-[#ffd90d] font-semibold">{exp.position}</p>
+                        <h3 className="text-xl font-bold text-white duration-300 group-hover:text-[#ffd90d]">{exp.company}</h3>
+                        <p className="text-white duration-300 group-hover:text-[#ffd90d]">{exp.position}</p>
                       </div>
                     </div>
 
@@ -122,15 +111,27 @@ export default function Experience() {
                     </div>
 
                     {/* Responsibilities */}
-                    <ul className="space-y-2">
-                      {exp.responsibilities.map((item, i) => (
-                        <li key={i} className="flex items-start">
-                          <span className="text-[#ffd90d] mr-2 mt-1">•</span>
-                          <span className="text-gray-300 text-sm">{item}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <p className="text-gray-300 text-sm leading-relaxed">
+                          {exp.responsibilities.join(" ")}
+                    </p>
+
+                    {/* Technologies */}
+                    <div className="flex flex-wrap gap-2 mt-4">
+                        {exp.technologies.map((tech, i) => (
+                          <span
+                            key={i}
+                            className="px-3 py-1 text-xs font-medium rounded-full border border-[#ffd90d]/40 text-[#ffd90d] bg-[#F68349]/10"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                    </div>
+
+                    
+                  
                   </div>
+
+
                 </div>
               </motion.div>
             ))}

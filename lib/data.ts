@@ -19,6 +19,7 @@ export const experiences = [
     period: "Jun 2023 - Sep 2023",
     responsibilities: ["Build a React.js UI with dynamic fields", "Developed REST APIs using a Supabase Backend"],
     logoUrl: "/placeholder.svg?height=100&width=100",
+    technologies: ["React", "Supabase", "REST APIs"],
   },
   {
     company: "AI Company",
@@ -26,6 +27,7 @@ export const experiences = [
     period: "Jun 2022 - Sep 2022",
     responsibilities: ["Deployed Web Server on AWS", "Trained an AI model with 70% accuracy"],
     logoUrl: "/placeholder.svg?height=100&width=100",
+     technologies: ["AWS", "Python"]
   },
 ]
 
@@ -35,11 +37,13 @@ export const projects = [
     description: "An beautiful way to organize your tasks",
     imageUrl: "/placeholder.svg?height=300&width=500",
     link: "https://github.com/",
+    technologies: ["AWS", "Python"]
   },
   {
     title: "Rotten Fruit Detector",
     description: "Detect rotten fruits with AI",
     imageUrl: "/placeholder.svg?height=300&width=500",
     link: "https://github.com/",
+    technologies: ["AWS", "Python"]
   },
 ]

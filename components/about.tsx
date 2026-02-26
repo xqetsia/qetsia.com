@@ -151,15 +151,15 @@ export default function About() {
 
                   <p className="text-gray-300 mb-6 leading-relaxed">
                     My experience spans design and engineering across a variety of products, from a{" "}
-                    <a href="https://www.unishack.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://www.unishack.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       student housing platform
                     </a>
                     , to an{" "}
-                    <a href="https://nupt.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://nupt.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       AI wedding planner
                     </a>
                     , to an{" "}
-                    <a href="https://tokk.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://tokk.ai/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       agentic movement coach
                     </a>
                     . Each project pushed me to take ownership from problem definition to delivery, 
@@ -169,11 +169,11 @@ export default function About() {
                   <p className="text-gray-300 mb-6 leading-relaxed">
                     I have proven experience building production-quality code that is correct, readable, 
                     well-tested, and extensible. I've designed systems end-to-end, including a{" "}
-                    <a href="https://nupt.ai/blog" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://nupt.ai/blog" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       blog CMS
                     </a>
                     {" "} and {" "}
-                    <a href="https://www.loom.com/share/5312c7d1d7ab494a9978ac1315c48b1f" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://www.loom.com/share/5312c7d1d7ab494a9978ac1315c48b1f" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       an iOS onboarding feature
                     </a>, applying large-scale system design principles 
                     to ensure each solution is built to grow.
@@ -183,7 +183,7 @@ export default function About() {
                     Beyond the code, I've led research-driven redesigns grounded in target user demographics. I understand that different user populations have fundamentally different needs. 
                     I also conceived the visual identity for 
                      {" "}
-                    <a href="https://www.loom.com/share/799b5b022bde4a3f830d702b2807ede7" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#F68349]">
+                    <a href="https://www.loom.com/share/799b5b022bde4a3f830d702b2807ede7" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
                       TOKK
                     </a>
                     , translating the concept of an AI coaching presence into a single, fluid visual.
