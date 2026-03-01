@@ -62,7 +62,7 @@ export default function Hero() {
                   <LucideGithub className="w-5 h-5 text-[#ffd90d]" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/qetsiankulu/"
+                  href="https://www.linkedin.com/in/qetsia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-[#1b1b1b]/20 border border-[#ffd90d]/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm"
