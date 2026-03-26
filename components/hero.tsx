@@ -53,7 +53,7 @@ export default function Hero() {
 
               <div className="flex items-center gap-3">
                 <a
-                  href="https://github.com/qetsiankulu"
+                  href="https://github.com/xqetsia"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-[#1b1b1b]/20 border border-[#ffd90d]/30 border-solid backdrop-blur-[6px] shadow-glass-inset hover:shadow-glass-sm"
