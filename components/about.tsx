@@ -181,13 +181,6 @@ export default function About() {
 
                   <p className="text-gray-300 mb-6 leading-relaxed"> 
                     Beyond the code, I've led research-driven redesigns grounded in target user demographics. I understand that different user populations have fundamentally different needs. 
-                    I also conceived the visual identity for 
-                     {" "}
-                    <a href="https://www.loom.com/share/799b5b022bde4a3f830d702b2807ede7" target="_blank" rel="noopener noreferrer" className="text-white font-semibold hover:text-[#ffd90d]">
-                      TOKK
-                    </a>
-                    , translating the concept of an AI coaching presence into a single, fluid visual.
-                    
                   </p>
 
                   <p className="text-gray-300 mb-6 leading-relaxed">

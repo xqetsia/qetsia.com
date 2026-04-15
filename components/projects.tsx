@@ -7,6 +7,13 @@ import { LucideExternalLink, LucideGithub } from "lucide-react"
 
 const projects = [
     {
+    title: "DRC Mineral Production API",
+    description: "Production REST API surfacing critical mineral supply chain data for the Democratic Republic of Congo. Built with FastAPI + PostgreSQL, deployed on Render, and designed for researchers and ESG analysts working on responsible sourcing.",
+    githubLink: "https://github.com/xqetsia/drc-minerals-api", 
+     demoLink: "https://drc-minerals-api.onrender.com/docs",
+    technologies: ["Python", "FastAPI", "PostgreSQL", "SQLAlchemy","Pydantic", "pytest", "Render", "Git"]
+  },
+    {
     title: "AfriGoal - Backend",
     description: "A lightweight FastAPI backend for fetching African Cup of Nations (AFCON) team data using the LiveScore API. Built for integration with an iOS SwiftUI app.",
     githubLink: "https://github.com/qetsiankulu/afrigoal-backend",
@@ -19,26 +26,18 @@ const projects = [
     demoLink: "https://www.loom.com/share/7337f9cf5d9c4542b31d6a89e0994b3e",
     technologies: ["Swift", "SwiftUI", "Git"]
   },
-  {
-    title: "PhotoScavengerHunt",
-    description: "An iOS app that allows users to capture or select photos from large libraries and visualize them on a dynamic map with custom markers based on image metadata",
-    githubLink: "https://github.com/qetsiankulu/ios102-project1-scavenger-hunt",
-    demoLink: "https://www.loom.com/share/9b658daa464342a291a0be4bcf1cf7e7",
-     technologies: ["UIKit", "PHPicker", "MapKit", "PhotosUI", "Git"]
-  },
-  {
-    title: "TranslateMe",
+    {title: "TranslateMe",
     description: "A multilingual translation app that uses the Memory API, Firestore for data persistence, and seamless navigation to manage and clear saved translations",
     githubLink: "https://github.com/qetsiankulu/ios102-project6-translateme",
     demoLink: "https://www.loom.com/share/6259d6ec881f49e7826069c9887871d2",
     technologies: ["Swift", "SwiftUI", "Firestore", "Firebase", "REST API", "Git"]
   },
   {
-    title: "TriviaGame",
-    description: "An app that challenges users with trivia questions spanning various categories and difficulties, featuring a timer, score tracking, and dynamic question management",
-    githubLink: "https://github.com/qetsiankulu/ios102-project5-triviagame",
-    demoLink: "https://www.loom.com/share/b6a2d7d3a49141dca6771dc1542be7ec",
-    technologies: ["Swift", "SwiftUI", "REST API", "Git"]
+    title: "PhotoScavengerHunt",
+    description: "An iOS app that allows users to capture or select photos from large libraries and visualize them on a dynamic map with custom markers based on image metadata",
+    githubLink: "https://github.com/qetsiankulu/ios102-project1-scavenger-hunt",
+    demoLink: "https://www.loom.com/share/9b658daa464342a291a0be4bcf1cf7e7",
+     technologies: ["UIKit", "PHPicker", "MapKit", "PhotosUI", "Git"]
   },
   {
     title: "MemoryGame",
