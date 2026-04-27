@@ -3,6 +3,7 @@ import About from "@/components/about"
 import Experience from "@/components/experience"
 import Projects from "@/components/projects"
 import StardustBackground from "@/components/stardust-background"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <Experience />
           <Projects />
         </div>
+        <Footer />
       </div>
     </main>
 
