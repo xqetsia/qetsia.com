@@ -36,10 +36,12 @@ const educationData = [
 
 const skillsData = {
   languages: [
-    { name: "Swift", icon: "images/swift.svg?height=40&width=40" },
     { name: "Python", icon: "images/python.svg?height=40&width=40" },
+    { name: "Swift", icon: "images/swift.svg?height=40&width=40" },
     { name: "Java", icon: "images/java.svg?height=40&width=40" },
+    { name: "C#", icon: "images/csharp.svg?height=40&width=40" },
     { name: "JavaScript", icon: "images/javascript.svg?height=40&width=40" },
+    { name: "SQL", icon: "images/sql.svg?height=40&width=40" },
     { name: "HTML", icon: "images/html.svg?height=40&width=40" },
     { name: "CSS", icon: "images/css.svg?height=40&width=40" },
   ],
@@ -52,9 +54,10 @@ const skillsData = {
   ],
   tools: [
     { name: "Xcode", icon: "images/xcode.svg?height=40&width=40" },
-    { name: "Postman", icon: "images/postman.svg?height=40&width=40" }, 
     { name: "Git", icon: "images/git.svg?height=40&width=40" },
+    { name: "PostegreSQL", icon: "images/postgresql.svg?height=40&width=40" },
     { name: "VS Code", icon: "images/vscode.svg?height=40&width=40" }, 
+    { name: "Postman", icon: "images/postman.svg?height=40&width=40" },
     { name: "Figma", icon: "images/figma.svg?height=40&width=40" }
   ],
 }
